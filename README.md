@@ -1,5 +1,9 @@
 # Ultra-Light-SR
-Real-time; Ultra-Light; 48K High Resolution
+Real-time; Ultra-Light; 16K to 48K; Audio Super Resolution
 
-MACs = 0.00712G
-Params = 0.067686M
+The model processes 1 hour data offline in only 0.17 seconds on an RTX 5070 GPU, achieving approximately 20,600× real-time performance. 
+
+Not linear interpolation, purely model-based generation.
+
+MACs = 0.00452G
+Params = 0.068158M
